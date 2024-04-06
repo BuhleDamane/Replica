@@ -1,0 +1,639 @@
+
+body {
+    background-color: #e4e6ea;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+    padding: 5px;
+}
+/* index.html start */
+
+.face-app{
+  margin-top: -40px;
+}
+
+  .facebook-app {
+    padding: 50px;
+    background-color: white;
+    max-width: 350px;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    max-height: 350px;
+  }
+
+  h1.login{
+    display: flex;
+    justify-content: space-evenly;
+    color: #1877f2;
+    text-align: center;
+    vertical-align: middle;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+    padding: 6px 0 12px 36px;
+    margin-top: -30px
+    
+  }
+  .login{
+    margin-left: -30px;
+    margin-bottom: 10px;
+    
+  }
+  
+  
+  .details{
+    display: inline-block;
+    box-shadow: 0 3px 5px #dddfe2;
+    border-color: #dddfe2;
+    font-size: 17px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: none;
+    height: 12px;
+    width: 9cm;
+    margin: 0;
+    border: 2px solid #CCCCCC;
+    padding: 16px 0 16px 16px;
+    outline: none;
+  }
+
+  .password{
+    outline: none;
+    display: inline-block;
+    border-color: #dddfe2;
+    font-size: 17px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    margin: 0;
+    height: 12px;
+    width: 9cm;
+    margin: 0;
+    border: 2px solid #CCCCCC;
+    padding: 16px 0 16px 16px;
+  }
+
+.checkbox-pass{
+  margin-left: -100px;
+  height: 15px;
+    width: 18px;
+    margin: 0;
+}
+.checkbox-pass{
+
+  border: 1 solid rgb(215, 218, 222)
+  
+}
+.forgot-checkbox{
+  font-size: 15px;
+color: rgb(118, 120, 121);
+font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+font-weight: normal;
+}
+
+button{
+  box-shadow: none;
+  box-shadow: 0;
+}
+.forgotten{
+  cursor: pointer;
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  background-color: #0866ff;
+  font-size: 20px;
+  width: 370px;
+  border: none;
+  height: 50px;
+  border-radius: 6px;
+}
+
+  .forgot-password{
+    color: #0866ff;
+    text-align: center;
+    font-size: 14;
+    font-family: inherit;
+    font-weight: 500;
+  }
+  .line1{
+    border: 1px solid #222;
+    opacity: 0.2;
+    width: 448.5px;
+    margin-left: -50px;
+  }
+  .new{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+    padding: 0 16px;
+
+  }
+  .create{
+    padding: 0;
+    text-align: center;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+  }
+  .page{
+    cursor: pointer;
+  }
+  /* index.html end */
+  a{
+    text-decoration: none;
+  }
+  /* forgot password.html start */
+  .reset{
+    margin: 0;
+    padding: 50px;
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    height: 180px;
+    border-radius: 10px;
+  }
+  .h1-reset{
+    margin-top: -30px;
+    color: rgb(22, 38, 67);
+    font-size: 20px;
+    margin-left: -22px;
+  }
+  
+  .line2{
+    border: 1px solid #222;
+    opacity: 0.1;
+    width: 499px;
+    margin-left: -50px;
+    margin-top: -10px;
+
+  }
+  
+  .reset-para{
+    font-size: 17px;
+    text-align: left;
+    color: rgb(28, 30, 33);
+    margin-left: -20px;
+  }
+  .reset-input{
+    color: #b7babd;
+    margin-left: -26px;
+    width: 444px;
+    height: 15px;
+    border-radius: 7px;
+    font-family: Roboto-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 16px 0 16px 16px;
+    border: 2px solid #ccd0d5;
+  }
+ 
+  .line3{
+    border: 1px solid #222;
+    opacity: 0.1;
+    width: 499px;
+    margin-left: -50px;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: right;
+    margin-right: -40px;
+    margin-top: -5px;
+  }
+.cancel{
+  margin: 10px;
+  width: 90px;
+  height: 37px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  text-shadow: none;
+  font-weight: bold;
+  color: #4b4f56;
+  background-color: #e4e6eb;
+  font-size: 15px;
+
+}
+.search{
+  font-size: 15px;
+  margin: 10px;
+  width: 90px;
+  height: 37px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  text-shadow: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(24, 119, 242);
+
+}
+/* forgot password.html end */
+
+/* account.html start */
+
+.account-container{
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  height: 550px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin-top: -40px;
+}
+.sign-up{
+  margin-left: 10px;
+  color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+.quick{
+  margin-top: -5px;
+  margin-left: 10px;
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.line4{
+  border: 1px solid #222;
+  opacity: 0.1;
+  width: 450px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.name{
+  width: 185px;
+  height: 23px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #a1abb7;
+  font-size: 16px;
+  background-color:  #f5f6f7;
+  padding: 10px;
+  outline: none;
+}
+.surname{
+  width: 185px;
+  height: 23px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #a1abb7;
+  margin-left: -1px;
+  font-size: 16px;
+  background-color:  #f5f6f7;
+  padding: 10px;
+  outline: none;
+}
+.mobile-input{
+  width: 407px;
+  height: 23px;;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #a1abb7;
+  margin-top: -0px;
+  font-size: 16px;
+  background-color:  #f5f6f7;
+  padding: 10px;
+  outline: none;
+}
+.password-account{
+  width: 407px;
+  height: 23px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #a1abb7;
+  margin-top: -0px;
+  font-size: 16px;
+  background-color:  #f5f6f7;
+  padding: 10px;
+  outline: none;
+}
+.date-of-birth-para{
+  color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+.day{
+  width: 137px;
+  height: 35px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #a1abb7;
+  outline: none;
+}
+.month{
+  width: 137px;
+  height: 35px;
+  margin: 2px;
+  border-radius: 4px;
+  border: 1px solid #a1abb7;
+  margin-left: -6px;
+  outline: none;
+}
+.year{
+  width: 137px;
+  height: 35px;
+  margin: 1px;
+  border-radius: 4px;
+  border: 1px solid #a1abb7;
+  outline: none;
+}
+.gender-para{
+  color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    margin-top: -3px;
+    outline: none;
+}
+#all_gender{
+  width: 150px;
+  height: 25px;
+  border: 1 solid #aaa;
+  padding: 8px 0 0 8px;
+}
+.all_gender{
+  display: flex;
+}
+.female{
+  width: 132px;
+  height: 33px;
+  margin: 8px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #a1abb7;
+  outline: none;
+  
+}
+.male{
+  width: 132px;
+  height: 33px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #a1abb7;
+  margin-left: 1px;
+  outline: none;
+
+}
+.custom{
+  width: 132px;
+  height: 33px;
+  margin: -0px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid #a1abb7;
+  margin-left: 2px;
+  outline: none;
+  margin-right: 11px;
+
+}
+.terms{
+  color: #777;
+  font-size: 11px;
+  margin-top: -5px;
+  text-align: left;
+  margin-left: 10px;
+}
+.span-para{
+  color: #1877f2;
+  cursor: pointer;
+}
+.butt{
+  cursor: pointer;
+  width: 190px;
+  height: 37px;
+  background-color:#00a400;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 130px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+@media (max-width: 576px){
+  /* index.html @media starts */
+  .face-app{
+    margin-top: 50px;
+  }
+  .facebook-app{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: -35px;
+
+  }
+  h1.login{
+    margin-left: -30px;
+    font-size: 30px;
+  }
+  .details{
+    width: 250px;
+    font-size: 12px;
+    height: 4px;
+    margin-top: -5px;
+  }
+  .password{
+    margin-top: -5px;
+    width: 250px;
+    font-size: 12px;
+    height: 4px;
+  }
+  .checkbox-pass{
+    width: 15px;
+    margin: 0;
+    border: 1px solid #CCCCCC;
+    border: none;
+  }
+  .forgot-checkbox{
+    font-size: 12px;
+    margin-top: -30px;
+    
+    
+  }
+  .forgotten{
+    width: 260px;
+    height: 47px;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: 600px;
+    
+  }
+  .forgot-password{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .line1{
+    width: 350px;
+  }
+  .new{
+    width: 200px;
+    font-size: 16px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .create{
+    font-size: 13px;
+  
+  }
+  .page{
+    cursor: pointer;
+  }
+  /* index.html @media ends */
+  /* forgot passweord.html @media starts */
+.reset{
+  margin-top: 100px;
+  width: 225px;
+  margin-left: -20px;
+  height: 150px;
+}
+.h1-reset{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.line2{
+  width: 323px;
+ 
+}
+.reset-para{
+  font-size: 12px;
+  margin-top: 20px;
+}
+.reset-input{
+  width: 250px;
+  font-size: 12px;
+  height: 4px;
+}
+.line3{
+  width: 323px;
+}
+.cancel{
+  font-size: 12px;
+  width: 75px;
+}
+.search{
+  font-size: 12px;
+  width: 75px;
+}
+  /* forgot passweord.html @media ends */
+  /* account.html @media starts */
+  .account-container{
+    margin-top: 20px;
+    margin-left: -30px;
+    width: 335px;
+    height: 500px;
+  }
+  .sign-up{
+    font-size: 25px;
+
+  }
+  .quick{
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .line4{
+    width: 338px;
+  }
+  .name{
+    width: 129px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .surname{
+    width: 129px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .mobile-input{
+    width: 295px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .password-account{
+    width: 295px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .date-of-birth-para{
+    font-size: 9px;
+    margin-bottom: -14px;
+    margin-left: 12px;
+  }
+  .day{
+    width: 100px;
+    height: 35px;
+  }
+  .month{
+    width: 100px;
+    height: 35px;
+  }
+  .year{
+    width: 100px;
+    height: 35px;
+  }
+  .gender-para{
+    font-size: 9px;
+    margin-bottom: -14px;
+    margin-left: 12px;
+  
+  }
+  #all_gender{
+    width: 100px;
+    font-size: 12px;
+    height: 25px;
+  }
+  .female{
+    width: 30px;
+  }
+  .male{
+    width: 30px;
+  }
+  .custom{
+    width: 30px;
+  }
+  .terms{
+    font-size: 9px;
+  }
+  .butt{
+    width: 120px;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 115px;
+  }
+  /* account.html @media ends */
+  
+}
+
