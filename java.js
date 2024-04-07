@@ -24,6 +24,6 @@ function isValidEmail(input) {
 
 function isValidPhoneNumber(input) {
     // Regular expression to validate phone number (example pattern)
-    let phoneRegex = /^\d{10}$/;
+    let phoneRegex = /^0[6-8][0-9]{8}$/;
     return phoneRegex.test(input);
 }
