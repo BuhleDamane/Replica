@@ -27,6 +27,6 @@ function isValidPhoneNumber(input) {
     let phoneRegex = /^0[6-8][0-9]{8}$/;
     return phoneRegex.test(input);
 }
-function isValidatePassword(input) {
+function isValidPassword(input) {
     return input.length >= 6;
 }
