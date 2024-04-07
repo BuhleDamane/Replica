@@ -117,6 +117,7 @@ button{
     font-size: 14;
     font-family: inherit;
     font-weight: 500;
+    margin-top: -10px;
   }
   .line1{
     border: 1px solid #222;
@@ -491,8 +492,9 @@ button{
     
   }
   .forgot-password{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
+    margin-top: -10px;
   }
   .line1{
     width: 350px;
