@@ -5,14 +5,14 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     let password = document.getElementById("password").value;
 
     
-    if ((isValidEmail(emailOrPhone) || isValidPhoneNumber(emailOrPhone)) && password) {
+    if ((isValidEmail(emailOrPhone) || isValidPhoneNumber(emailOrPhone)) && isValidPassword(password)) {
         
         console.log("Login successful!");
     
         window.location.href = "https://www.facebook.com/profile.php";
     } else {
         
-        alert("Please enter a valid Email or phone number and Password.");
+        alert("Please enter a valid email or phone number and a password with at least 6 characters.");
     }
 });
 
@@ -26,4 +26,7 @@ function isValidPhoneNumber(input) {
     // Regular expression to validate phone number (example pattern)
     let phoneRegex = /^0[6-8][0-9]{8}$/;
     return phoneRegex.test(input);
+}
+function isValidatePassword(input) {
+    return input.length >= 6;
 }
