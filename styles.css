@@ -458,13 +458,13 @@ button{
     margin-left: -30px;
     font-size: 30px;
   }
-  .details{
+  #emailOrPhone{
     width: 250px;
     font-size: 12px;
     height: 4px;
     margin-top: -5px;
   }
-  .password{
+  #password{
     margin-top: -5px;
     width: 250px;
     font-size: 12px;
