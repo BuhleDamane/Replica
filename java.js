@@ -12,7 +12,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         window.location.href = "https://www.facebook.com/profile.php";
     } else {
         
-        alert("Please enter a valid email or phone number and a password with at least 6 characters.");
+        alert("Please enter a valid email or phone number and a correct password.");
     }
 });
 
