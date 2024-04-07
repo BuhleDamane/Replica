@@ -42,7 +42,7 @@ body {
   }
   
   
-  .details{
+  #emailOrPhone{
     display: inline-block;
     box-shadow: 0 3px 5px #dddfe2;
     border-color: #dddfe2;
@@ -58,7 +58,7 @@ body {
     outline: none;
   }
 
-  .password{
+  #password{
     outline: none;
     display: inline-block;
     border-color: #dddfe2;
@@ -75,7 +75,7 @@ body {
     padding: 16px 0 16px 16px;
   }
 
-.checkbox-pass{
+#checkbox-pass{
   margin-left: -100px;
   height: 15px;
     width: 18px;
